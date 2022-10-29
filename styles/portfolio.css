@@ -1,5 +1,34 @@
 body {
-  background-color: bisque;
+  background: rgb(250, 243, 210);
 }
-/* font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
+:root {
+  --default-font-family: "Roboto", sans-serif;
+  --inner-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Kalam", cursive;
+  --branding-color: rgb(58, 56, 56);
+}
+
+h1 {
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  font-weight: bold;
+}
+.hero {
+  background-color: bisque;
+  text-align: center;
+}
+
+.hero p {
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: bold;
+}
+.btn-branding {
+  background: gray;
+  border-radius: 4px;
+  box-shadow: ;
+  color: wheat;
+  font-size: 24px;
+  padding: 12px 20px;
+}
