@@ -122,22 +122,17 @@ h3 {
 }
 
 @media (max-width: 900px) {
-  .container {
-    line-height: 30px;
-    padding: 0 20px 30px 20px;
+  .hero {
+    margin: 50px 10px;
   }
-
-  .header img {
-    margin-top: 20px;
+  h1 {
+    font-size: 56px;
   }
-
-  h2 {
-    font-size: 20px;
-  }
-
+  h2,
   h3 {
     font-size: 25px;
   }
+
   .gallery img {
     display: flex;
     margin: 10px 20px 10px 0;
@@ -155,25 +150,7 @@ h3 {
   .gallery .img-4:hover {
     transform: none;
   }
-  .cartoon-computer {
-    position: static;
-  }
 
-  .blurb-image img {
-    display: none;
-  }
-  .contact-details-container {
-    line-height: 1;
-    font-size: 15px;
-  }
-
-  .personal-blurb h3,
-  #contact-details h3 {
-    margin-top: 20px;
-  }
-  #contact-details {
-    padding-top: 0;
-  }
   footer {
     margin: 20px 30px 40px 30px;
   }
