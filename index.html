@@ -27,13 +27,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="hero">
-      <p>Hello, I am</p>
-      <h1>Nataliia Boiko</h1>
-      <h2 class="mb-5">Front-end developer based in Poland</h2>
-      <div><a href="" class="btn btn-branding">Contact me</a></div>
-
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">NB</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link border-bottom"
+                  aria-current="page"
+                  href="/"
+                  title="Homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" title="About Katie"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html" title="Projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/about.html#contact-details"
+                  title="Contact Katie"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <p>Hello, I am</p>
+        <h1>Nataliia Boiko</h1>
+        <h2 class="mb-5">Front-end developer based in Poland</h2>
+        <div><a href="" class="btn btn-branding">Contact me</a></div>
+      </div>
       <!-- <i class="fa-brands fa-instagram"></i> -->
-    </div>
+      <h3>My projects</h3>
+      <div class="container mt-4 gallery">
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="/projects.html#hobby-project">
+              <img
+                src="images/project1.png"
+                alt="stained glass project screenshot"
+                title="Stained Glass Project Screenshot"
+                class="img-fluid shadow rounded img-1"
+            /></a>
+          </div>
+          <div class="col-lg-3">
+            <a href="/projects.html#clock-project">
+              <img
+                src="images/project2.png"
+                alt="World Clock project screenshot"
+                title="World Clock Project Screenshot"
+                class="img-fluid shadow rounded img-2"
+            /></a>
+          </div>
+          <div class="col-lg-3">
+            <a href="/projects.html#weather-project">
+              <img
+                src="images/project3.png"
+                alt="Weather app project screenshot"
+                title="Weather App Screenshot"
+                class="img-fluid shadow rounded img-3"
+            /></a>
+          </div>
+          <div class="col-lg-3">
+            <a href="/projects.html#passion-project">
+              <img
+                src="images/project4.png"
+                alt="Tiny House project screenshot"
+                title="Tiny House Screenshot"
+                class="img-fluid shadow rounded img-4"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Designed and coded by Nataliia Boiko | Open source on GitHub | Hosted on
+      Netlify
+      <div class="icons">
+        <a
+          href="https://github.com/NataliiaBoiko22"
+          target="_blank"
+          title="Nataliia Boiko GitHub">
+          <i class="fa-brands fa-github icon"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nataliia-boiko-ab48a9242/"
+          target="_blank"
+          title="Nataliia Boiko Linkedin">
+          <i class="fa-brands fa-linkedin icon"></i
+        ></a>
+        <a href="mailto:nata.boyko.kras@gmail.com" title="Email Nataliia Boiko">
+          <i class="fa-solid fa-at icon"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
