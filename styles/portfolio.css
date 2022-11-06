@@ -119,6 +119,7 @@ h3 {
   color: var(--branding-color);
   padding: 3px;
   font-size: 30px;
+  margin: 10px;
 }
 
 @media (max-width: 900px) {
@@ -198,7 +199,7 @@ h3 {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 1.5;
 }
 
@@ -232,4 +233,20 @@ h3 {
   transform: scale(1.1);
   transition: all 400ms ease;
   box-shadow: 0 20px 30px wheat;
+}
+/* *TODO Contact */
+
+.link-contact {
+  color: var(--branding-color);
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+.link-contact:hover {
+  color: var(--container-background-color-color);
+  text-decoration: underline;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 24px;
 }
