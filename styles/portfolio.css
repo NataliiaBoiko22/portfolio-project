@@ -154,4 +154,31 @@ h3 {
   footer {
     margin: 20px 30px 40px 30px;
   }
+  .container {
+    text-align: center;
+    color: red;
+    padding: 0;
+  }
+}
+/* *TODO About */
+.about_section {
+  margin-top: 80px;
+  text-align: start;
+  padding: 50px;
+  box-shadow: 0 10px 40px rgba(239, 239, 239, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.about_section h1 {
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.photo {
+  border: 1px solid var(--container-background-color);
+  border-radius: 30%;
+  width: 85%;
+  margin-left: 50px;
 }
